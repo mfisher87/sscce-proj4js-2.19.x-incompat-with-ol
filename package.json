@@ -1,0 +1,19 @@
+{
+  "name": "ol-proj4-compat",
+  "version": "0.0.1",
+  "description": "reproduce compatibility problem between ol and proj4 2.19.*",
+  "license": "CC0",
+  "author": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "ol": "10.6.1",
+    "proj4": "2.19.*"
+  },
+  "devDependencies": {
+    "@types/proj4": "^2.5.6",
+    "typescript": "^5.8.3"
+  }
+}
